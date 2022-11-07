@@ -1,0 +1,15 @@
+{
+  "name": "icon-font-generator",
+  "version": "1.0.0",
+  "main": "fantasticon.js",
+  "scripts": {
+    "start": "npx oslllo-svg-fixer -s ./icons -d ./fixed --sp && npx fantasticon"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "fantasticon": "^1.2.3",
+    "oslllo-svg-fixer": "^2.2.0"
+  }
+}
